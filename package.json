@@ -2,11 +2,11 @@
   "name": "gentest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "maths.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "test": "node text.js"
+    "start": "node math.js",
+    "test": "node test.js"
   },
   "keywords": [],
   "author": "",
