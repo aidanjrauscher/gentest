@@ -5,4 +5,11 @@ function modulo(a, b) {
     return a % b;
 }
 
-module.exports = { modulo }
+function multiply(a, b) { 
+    return a * b;
+}
+
+module.exports = { 
+    modulo,
+    mult
+}
