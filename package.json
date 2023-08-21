@@ -2,12 +2,15 @@
   "name": "gentest",
   "version": "1.0.0",
   "description": "",
-  "main": "math.js",
-  "type": "module",
+  "main": "maths.js",
   "scripts": {
-    "start": "node math.js"
+    "start": "node math.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
 }
